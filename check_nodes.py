@@ -30,5 +30,6 @@ if nodes_down:
 	print("The following nodes are not connected: " + nodes_down)
 	sys.exit(2)
 else:
+        print("Everything is Okay!")
 	sys.exit(0)
 
